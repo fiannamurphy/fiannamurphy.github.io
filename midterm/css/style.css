@@ -1,3 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #aad4cf;
+}
+
+.wrapper {
+    background-color:lightcyan;
+    width: 600px;
+    margin: 0 auto;
+}
+
+nav ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    border-right: 1px solid #333;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+.box-model {
+    background-color: #ccc;
 }
