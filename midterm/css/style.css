@@ -29,5 +29,6 @@ nav ul li:last-child {
 
 .box-model {
     background-color: #ccc;
+    width: 600px;
 }
 
